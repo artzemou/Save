@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Des fonctions avancées",
+    "content": [
+        "<b>Profitez de fonctionnalités de comptabilité avancée</b>",
+        "Accompagnez vos clients dans leur gestion : Paramétrage des journaux, comptes, génération du FEC ou encore export des écritures au format de votre outil de production… Restez au cœur des missions comptables de vos clients."
+    ],
+
+
+    "captures": [{
+        "capture": "img/capture/experts/exports.jpg",
+        "key": 1
+
+            }]
+},
+
+ {
+    "title": "Une tenue automatisée",
+    "content": [
+        "<b>Simplifiez votre saisie pour mieux rentabiliser vos missions traditionnelles</b>",
+        "C’est simple, ce sont désormais vos clients qui s’en occupe, sans s’en rendre compte ! Jusqu’à 96% des opérations de saisie sont totalement automatisées ! Vos clients n’ont donc pas besoin de connaissance en comptabilité."
+    ] ,
+
+    "captures": [{
+        "capture": "img/capture/experts/tenue.jpg",
+        "key": 1
+
+            }]
+},
+
+ {
+    "title": "Une gestion des dossiers optimisée",
+    "content": [
+        "<b>Pilotez l’ensemble de vos dossiers clients</b> ",
+        "Accédez aux dossiers de vos clients via une interface unique. Récupérez en quelques clics les informations dont vous avez besoin pour la révision et travaillez avec des données fiables. Echangez avec vos clients directement depuis l’interface. "
+    ] ,
+
+    "captures": [{
+        "capture": "img/capture/experts/parametrage.jpg",
+        "key": 1
+
+            }]
+}
+
+]

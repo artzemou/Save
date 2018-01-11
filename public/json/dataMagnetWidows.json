@@ -1,0 +1,19 @@
+{
+
+    "windows": [
+      {
+        "title":"Nous joindre par téléphone",
+        "windows":[
+          {
+            "innerText":"Nous contacter",
+            "Component": MagnetWindowContact
+          },
+          {
+            "innerText":"Faites-vous rappeler",
+            "Component": MagnetWindowRappel
+          }
+
+        ]
+      }
+    ]
+}

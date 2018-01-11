@@ -1,0 +1,127 @@
+[
+  {
+    "title": "Facturer",
+    "content": [
+        "Réaliser les opérations quotidiennes de gestion avec EBP Horizon est un jeu d’enfants, grâce à une navigation intuitive.",
+        "La création et la gestion de vos articles et services est simple : importez un catalogue déjà existant ou créez vos articles directement depuis la plateforme.",
+        "La création d’un devis ou d’une facture est tout aussi simple. Plusieurs options s’offrent à vous : depuis le bouton de création rapide, directement depuis la fiche d’un client, ou encore depuis le catalogue.  Une fois un devis approuvé, transformez-le en facture et enregistrez le règlement en un clic."
+    ],
+
+
+    "captures": [{
+        "capture": "capture_anim/facturer.html",
+        "key": 1
+
+            }]
+},
+
+ {
+    "title": "Mes clients",
+    "content": [
+        "Dès votre connexion à la plateforme, consultez les opérations en attente de traitement, pour être toujours à jour dans votre gestion : devis à terminer, factures en attente de paiement, documents à traiter, clients à relancer, etc. Relancez ainsi vos clients au bon moment et boostez votre trésorerie.",
+        "En vous rendant sur une fiche client, vous pouvez consulter le solde dû, les devis en cours, les factures non payées, et imprimer son relevé de factures."
+    ] ,
+
+    "captures": [{
+        "capture": "capture_anim/mes_clients_1.html",
+        "key": 1
+
+      },
+      {
+          "capture": "capture_anim/mes_clients_2.html",
+          "key": 1
+
+        },{
+            "capture": "capture_anim/mes_clients_3.html",
+            "key": 1
+
+          },{
+              "capture": "capture_anim/mes_clients_4.html",
+              "key": 1
+
+            }
+          ]
+},
+
+ {
+    "title": "Mes fournisseurs",
+    "content": [
+        "Avec EBP Horizon, gérez simplement vos fournisseurs. En quelques clics, vous pouvez en créer un nouveau et renseigner ses informations.  ",
+        "Importez automatiquement vos factures fournisseurs et retrouvez-les depuis sa fiche contact. Depuis votre tableau de bord, suivez en temps réel celles que vous devez payer. ",
+        "Maîtrisez ainsi vos dépenses à venir."
+    ] ,
+
+    "captures": [{
+        "capture": "capture_anim/mes_fournisseurs_1.html",
+        "key": 1
+
+
+      },{
+          "capture": "capture_anim/mes_fournisseurs_2.html",
+          "key": 1
+
+
+        }]
+},
+
+ {
+    "title": "Mon activité",
+    "content": [
+        "Grâce  au tableau de bord dynamique intégré dans la plateforme EBP Horizon, vous disposez d’une vue à 360° de votre activité !",
+        "Votre tableau de bord se construit automatiquement à partir de vos données de facturation et de vos dépenses enregistrées.",
+        "Suivez l’évolution de votre chiffre d’affaires mois par mois, votre solde bancaire, … et gardez un œil sur votre trésorerie prévisionnelle."
+    ] ,
+
+    "captures": [{
+        "capture": "capture_anim/mon_activite.html",
+        "key": 1
+            }]
+},
+
+
+
+ {
+    "title": "Ma comptabilité",
+    "content": [
+        "Avec EBP Horizon, votre comptabilité se construit automatiquement d’après vos devis, factures, achats et comptes bancaires.  ",
+        "En synchronisant vos comptes professionnels avec votre plateforme EBP Horizon, l’ensemble de vos opérations bancaires s’affecte automatiquement.",
+        "La gestion de la TVA dans EBP Horizon est automatisée. Consultez à tout moment le montant de la TVA à reverser aux impôts. En quelques clics, vous pouvez générer l’état préparatoire de votre TVA, obtenir votre justificatif et la déclarer sur le site des impôts. "
+    ] ,
+
+    "captures": [{
+        "capture": "capture_anim/compta_1.html",
+        "key": 1
+      },{
+          "capture": "capture_anim/compta_2.html",
+          "key": 1
+              }
+      ]
+},
+
+ {
+    "title": "Mon accompagnement",
+    "content": [
+        "Face à la gestion de votre entreprise, EBP Horizon vous accompagne. ",
+        "Hector, votre Assistant virtuel, répond à vos questions 24h/24, 7j/7. Dites-lui ce que vous souhaitez faire, et il travaillera pour vous ! Il pourra ainsi créer un client, un fournisseur, un devis, etc. C’est (presque) magique !",
+        "Et en plus d’Hector, appuyez-vous  sur l’équipe de techniciens EBP en contactant l’Assistance téléphonique<sup>(2)</sup>!"
+    ] ,
+
+    "captures": [{
+        "capture": "capture_anim/mom_accompagnement.html",
+        "key": 1
+
+            }]
+},
+
+ {
+    "title": "Mon Expert-Comptable",
+    "content": [
+        "L’accès à EBP Horizon pour votre Expert-Comptable est gratuit. ",
+        "Grâce à cette plateforme de travail partagée, la collaboration avec votre Expert est facilitée. Il accède à vos données dès qu’il en a besoin, pour gérer votre comptabilité. Vous pouvez également lui envoyer des messages et lui transmettre des documents, directement depuis EBP Horizon. Vous gagnez ainsi du temps au quotidien, tout comme votre Expert, qui peut donc mieux vous accompagner."
+    ] ,
+
+    "captures": [{
+        "capture": "capture_anim/mon_expert.html",
+        "key": 1
+            }]
+}]

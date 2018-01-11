@@ -1,0 +1,40 @@
+
+{
+    "galleryTop": [
+        {
+            "key":0,
+            "img": "img/la_compta_c_est_complique.png",
+            "faux":"img/bulle.png",
+            "title": "Idée reçue n°1",
+            "ideeRecue":"La compta c’est compliqué !",
+            "text": "Avec EBP Horizon, votre comptabilité se construit automatiquement d’après vos devis, factures et comptes bancaires. Et grâce à l’accès dédié pour votre Expert-Comptable, il s’occupe de la tenue de votre comptabilité."
+        },
+        {
+            "key":1,
+            "img": "img/ca_prend_du_temps.png",
+            "faux":"img/bulle.png",
+            "title": "Idée reçue n°2",
+            "ideeRecue":"Les devis et les factures, ça prend du temps ! ",
+            "text": "Gagnez du temps avec EBP Horizon. Avec son interface ergonomique, réalisez un devis ou une facture en quelques clics. Optimisez votre temps en les envoyant à vos clients où que vous soyez !"
+        },
+        {
+            "key":2,
+            "img": "img/je_suis_seul_.png",
+            "faux":"img/bulle.png",
+            "title": "Idée reçue n°3",
+            "ideeRecue":"Face à la gestion de mon entreprise, je suis seul !",
+            "text": "Avec EBP Horizon, vous êtes accompagné par Hector 24h/7J. Depuis le tchat, dites-lui simplement ce que vous souhaitez faire, et laissez-le travailler pour vous. C’est (presque) magique !"
+        },
+        {
+            "key":3,
+            "img": "img/toute_mo_activite_.png",
+            "faux":"img/bulle.png",
+            "title": "Idée reçue n°4",
+            "ideeRecue":"Toute mon activité en un coup d’œil, c’est impossible !",
+            "text": "EBP Horizon génère automatiquement les indicateurs clés dans votre tableau de bord. Suivez l’évolution de votre CA, votre trésorerie, vos factures à payer, etc."
+        }
+
+
+
+    ]
+}

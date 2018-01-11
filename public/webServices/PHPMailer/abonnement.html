@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Choisisser votre abonnement EBP Horizon " />
+		<title>Abonnement - EBP Horizon</title>
+		<style>
+			.wrap
+			{
+				opacity:0;
+				-webkit-transition: opacity 1s ease-in-out 50ms;
+			  transition: opacity 1s ease-in-out 50ms  }
+
+			h1.hide
+			{
+				padding: 0;
+				margin: 0;
+				overflow: hidden;
+			  height: 0}
+				.menu.hide {
+				    padding: 0;
+				    margin: 0;
+				    overflow: hidden;
+				    height: 0
+				}
+
+			body
+			{
+				overflow: hidden;
+				margin: 0;
+			padding: 0}
+
+			.loader-container
+			{
+				position: fixed;
+				z-index: 999999999999999;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				top: 0;
+				padding: 1em;
+				background: #e0e0e0;
+				width: 100%;
+				min-height: 100vh;
+			opacity: .8}
+
+			header
+			{
+				background: #193f5e;
+				height: 50px;
+				position: fixed;
+				width: 100%;
+				top: 0;
+				z-index: 9999999;
+				text-align: center;
+			line-height: normal}
+
+			header .fa.fa-user
+			{
+				color: #fff;
+				cursor: pointer;
+			font-size: 24px}
+
+			header .material-icons.left,.fa.fa-bars.left.btn-menu
+			{
+				position: absolute;
+				left: 1rem;
+				top: .8rem;
+				overflow: hidden;
+				color: #fff;
+				font-size: 24px;
+			cursor: pointer}
+
+			header .right
+			{
+				cursor: pointer;
+				position: absolute;
+				right: .75rem;
+			top: .3rem}
+
+			header .register
+			{
+				color: #fff;
+				display: inline-block;
+				vertical-align: middle;
+				background: #f26811;
+			padding: .5rem}
+
+			header .register:hover
+			{
+				color: #fff;
+				display: inline-block;
+				vertical-align: middle;
+				background: #ec6415;
+			padding: .5rem}
+
+			header .log
+			{
+				color: #fff;
+				display: inline-block;
+				vertical-align: middle;
+				padding: .5rem;
+				margin-left: .25rem;
+				background: #166eb8;
+			}
+			header .log:hover
+			{
+				
+				background: #1363a5;
+			}
+
+			header .log span
+			{
+				display: inline-block;
+				width: 0;
+				height: 0;
+			overflow: hidden}
+
+			header .log span
+			{
+				display: inline-block;
+				width: auto;
+				height: auto;
+			overflow: visible}
+
+			header a
+			{
+				color: #fff;
+			text-decoration: none}
+
+			header img
+			{
+				width: 200px;
+				margin-top: .5rem;
+				margin-left: -.5rem;
+			cursor: pointer}
+
+			@keyframes container-rotate
+			{
+				100%
+				{
+				transform: rotateZ(360deg)}
+			}
+
+			@keyframes spinner-rotate
+			{
+				12.5%
+				{
+				transform: rotate(135deg)}
+
+				25%
+				{
+				transform: rotate(270deg)}
+
+				37.5%
+				{
+				transform: rotate(405deg)}
+
+				50%
+				{
+				transform: rotate(540deg)}
+
+				62.5%
+				{
+				transform: rotate(675deg)}
+
+				75%
+				{
+				transform: rotate(810deg)}
+
+				87.5%
+				{
+				transform: rotate(945deg)}
+
+				100%
+				{
+				transform: rotate(1080deg)}
+			}
+
+			@keyframes half-rotate
+			{
+				0%
+				{
+				transform: rotateZ(130deg)}
+
+				50%
+				{
+				transform: rotateZ(-5deg)}
+
+				100%
+				{
+				transform: rotateZ(130deg)}
+			}
+
+			.loader
+			{
+				width: 78px;
+				height: 78px;
+				margin: 30vh auto;
+				font-size: 20px;
+				color: #193f5e;
+			animation: container-rotate 1568ms linear infinite}
+
+			.loader-spinner
+			{
+				height: 100%;
+			animation: spinner-rotate 5332ms cubic-bezier(.4,0,.2,1) infinite both}
+
+			.loader-component
+			{
+				float: left;
+				width: 50%;
+				height: 100%;
+			overflow: hidden}
+
+			.loader-component:last-child
+			{
+			transform: rotateY(180deg) translateX(1px)}
+
+			.loader .half-circle
+			{
+				width: 200%;
+				height: 100%;
+				border-radius: 50%;
+				box-sizing: border-box;
+				border: .2em solid currentColor;
+				border-bottom-color: transparent;
+				border-right-color: transparent;
+			animation: half-rotate 1333ms cubic-bezier(.4,0,.2,1) infinite both}
+
+			h2.title
+			{
+				max-width: 100%;
+				background: #166eb8;
+				text-align: center;
+				color: #fff;
+				text-transform: uppercase;
+				border-top: 8px solid #193f5e;
+				cursor: pointer;
+				padding: 1rem;
+				min-height: 60px;
+				margin: 0;
+				font-size: 1.3rem;
+				vertical-align: middle;
+				line-height: normal;
+				text-align: center;
+			}
+			.main-container {
+			    margin-top: 50px
+			}
+		</style>
+		<script>
+			  (function(i,s,o,g,r,a,m){
+				i['GoogleAnalyticsObject']=r;
+				i[r]=i[r]||function(){
+					  (i[r].q=i[r].q||[]).push(arguments)
+				}
+				,i[r].l=1*new Date();
+				a=s.createElement(o),  m=s.getElementsByTagName(o)[0];
+				a.async=1;
+				a.src=g;
+				m.parentNode.insertBefore(a,m)
+			}
+			)(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			  ga('create', 'UA-873612-18', 'auto');
+			  ga('send', 'pageview');
+		</script>
+	</head>
+	<body>
+		<script>
+			(function(e){
+				var t=document,n=t.createElement("script");
+				n.async=!0,n.defer=!0,n.src=e,t.getElementsByTagName("head")[0].appendChild(n)
+			}
+			)("//c.vepxl1.net/4-6793.js?id=6793&m=4");
+		</script>
+		<div class="loader-container">
+			<div class="loader" style="font-size: 10px;">
+				<div class="loader-spinner">
+					<div class="loader-component">
+						<div class="half-circle"></div>
+					</div>
+					<div class="loader-component">
+						<div class="half-circle"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header>
+			<i class="fa fa-bars left btn-menu" aria-hidden="true"></i>
+			<img src="img/logo-Horizon_bleu.png"alt="">
+			<div class="right">
+				<span class="register"><a href="/abonnement">S'abonner</a></span>
+				<a href="https://horizonapps.ebp.com/" target="_blank" class="log">
+					<span>Accéder à l'application</span>
+				</a>
+			</div>
+			<h1 class="hide">Logiciel de gestion et comptabilité en ligne - EBP Horizon</h1>
+		</header>
+		<div class="wrap">
+			<div id="menu">
+				<nav class="menu hide">
+					<ul>
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="entreprises.html">Entreprises</a></li>
+						<li><a href="experts.html">Expert-comptable</a></li>
+						<li><a href="faq.html">Aide et Support</a></li>
+						<li><a href="a-propos.html">A propos d'EBP</a></li>
+						<li><a href="contact.html">Contactez-nous</a></li>
+					</ul>
+				</nav>
+				<nav class="menu hide socialNetWork clearfix">
+					<ul>
+						<li><a href="http://www.compta-entrepreneurs.com/" target="_blank">http://www.compta-entrepreneurs.com/</a></li>
+						<li><a href="https://plus.google.com/106761603161696485730" target="_blank">https://plus.google.com/106761603161696485730</a></li>
+						<li><a href="http://www.dailymotion.com/EBP_Informatique" target="_blank">http://www.dailymotion.com/EBP_Informatique</a></li>
+						<li><a href="https://www.youtube.com/user/EBPinformatique" target="_blank">https://www.youtube.com/user/EBPinformatique</a></li>
+						<li><a href="http://fr.viadeo.com/fr/company/ebp" target="_blank">http://fr.viadeo.com/fr/company/ebp</a></li>
+						<li><a href="https://fr.linkedin.com/company/ebp-informatique" target="_blank">https://fr.linkedin.com/company/ebp-informatique</a></li>
+						<li><a href="https://twitter.com/ebp_france?lang=fr" target="_blank">https://twitter.com/ebp_france?lang=fr</a></li>
+						<li><a href="https://www.facebook.com/ebpinformatique/" target="_blank">https://www.facebook.com/ebpinformatique/</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="main-container">
+				<div class="container container_abonnement">
+					<h2 class="title">Choisissez l'abonnement qui vous ressemble <i class="fa fa-plus-circle" aria-hidden="true"></i></h2>
+					<section class="section open">
+						<div id="sliderSubscription">
+							<ul>
+								<li>Je teste gratuitement la plateforme pendant 30 jours, c'est sans engagement</li>
+								<li>Je gère mes clients, mes devis et mes factures et je saisis manuellement mes factures fournisseurs</li>
+								<li>Je gère ma TVA, du calcul à la déclaration</li>
+								<li>Je gère ma trésorerie prévisionnelle(1) et j’accède à l’Assistance téléphonique(2)</li>
+								<li>Je gère mes factures fournisseurs automatiquement et j’accède au back office de comptabilité</li>
+								<li>Je gère plusieurs utilisateurs</li>
+								<li>FIRST</li>
+								<li>FIRST+</li>
+								<li>OPEN</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+				<footer>
+					<div id="footer"></div>
+				</footer>
+				<div class="go-back">
+					<i class="fa fa-arrow-up" aria-hidden="true"></i>
+				</div>
+			</div>
+			<script>
+				setTimeout(function(){
+					var loadCss = function() {
+						var el = document.createElement('link');
+						 el.rel = 'stylesheet';
+						 el.href = 'css/style.min.css';
+						 document.head.appendChild(el);
+						setTimeout(function(){
+							document.querySelector('.wrap').style.opacity = 1;
+						}
+						,800)
+					};
+					var raf = requestAnimationFrame || mozRequestAnimationFrame ||webkitRequestAnimationFrame || msRequestAnimationFrame;
+					if (raf) raf(loadCss);
+					else window.addEventListener('load', loadCss);
+				},0)
+			</script>
+			<script type="text/javascript">
+				function downloadJSAtOnload() {
+					setTimeout(function(){
+						var element = document.createElement("script");
+						element.src = "js/abonnement.min.js";
+						document.body.appendChild(element);
+					}
+					,0)
+				}
+				if (window.addEventListener)window.addEventListener("load", downloadJSAtOnload, false);
+				else if (window.attachEvent)window.attachEvent("onload", downloadJSAtOnload);
+				else window.onload = downloadJSAtOnload;
+			</script>
+			<!-- AT Internet -->
+			<script type="text/javascript" src="https://static.ebp.com/FR/xiti/marketinghorizon/smarttag.js"></script>
+			<script>
+				var ATTag = new ATInternet.Tracker.Tag({
+					log: "logc187",logSSL: "logs1187",secure: false,site: 582477,domain: "xiti.com"
+				});
+				ATTag.page.send({
+					name: "pagename"
+				});
+			</script>
+			<script type="text/javascript" language="javascript" src="https://static.ebp.com/FR/xiti/marketinghorizon/xtclicks.js"></script>
+			<script type="text/javascript" src="https://static.ebp.com/FR/xiti/marketinghorizon/xtcore.js"></script>
+			<!-- End AT Internet -->
+		</body>
+	</html>

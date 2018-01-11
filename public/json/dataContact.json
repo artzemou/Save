@@ -1,0 +1,103 @@
+﻿{
+
+    "items": [
+        {
+            "captchaID":"captcha1",
+            "title":"Entreprises",
+            "tel": "01 34 94 85 85",
+            "text":"Envoyez-nous un message",
+            "mailto":"benjamin.frizon@ebp.com",
+            "callBack":"onSubmitcaptcha1",
+            "selects":[
+              {
+                "name":"solution",
+                "options": [
+                  {
+                    "value": "0",
+                    "content":"EBP Horizon First"
+                  },
+                  {
+                    "value": "1",
+                    "content":"EBP Horizon First +"
+                  },
+                  {
+                    "value": "2",
+                    "content":"EBP Horizon OPEN"
+                  }
+                ]
+              }]
+        },
+        {
+
+            "captchaID":"captcha2",
+            "title":"Expert-Comptable",
+            "tel": "01 34 94 80 55",
+            "text":"Envoyez-nous un message",
+            "form":[],
+            "mailto":"experts.fr@ebp.com",
+            "callBack":"onSubmitcaptcha2",
+            "selects":[]
+        }
+    ],
+    "form": [
+      {
+        "btn":[
+          {
+            "content":"Vous avez une demande commerciale ?"
+          }
+        ],
+        "legends":[
+
+          {
+            "content":"Il vous suffit de remplir ce formulaire pour qu'un conseiller commercial EBP vous rappelle ! Le rappel est gratuit et réalisé dans un délai d’une heure du lundi au jeudi de 9h00 18h. Pour les demandes faites après 18h30, les WE ou jours fériés. Vous serez rappelé dans les 24h qui suivent votre demande ou le jour ouvré suivant."
+          }
+        ],
+        "selects":[
+          {
+            "name":"SelectedTypeSociete",
+            "options": [
+              {
+                "value": "0",
+                "content":"Entreprise / Société"
+              },
+              {
+                "value": "1",
+                "content":"Revendeur"
+              },
+              {
+                "value": "2",
+                "content":"Profession comptable"
+              },
+              {
+                "value": "3",
+                "content":"Autre"
+              }
+            ]
+          },
+          {
+            "name":"SelectedDemandeInfos",
+            "options": [
+              {
+                "value": "0",
+                "content":"Renseignement commercial"
+              },
+              {
+                "value": "1",
+                "content":"Téléchargement, installation ou activation"
+              },
+              {
+                "value": "2",
+                "content":"Question sur un devis, une commande"
+              },
+              {
+                "value": "3",
+                "content":"Autre"
+              }
+            ]
+          }
+        ]
+
+      }
+
+    ]
+}

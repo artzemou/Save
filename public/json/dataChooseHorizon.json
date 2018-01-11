@@ -1,0 +1,45 @@
+[
+  {
+    "src": "img/captures/Capture1.JPG",
+    "title": "AUTOMATIS&Eacute;E",
+    "content": "<div class=\"wrap\"><div class=\"content\"><p>EBP Horizon, simplifie vos actions quotidiennes de gestion. Connectez vos comptes bancaires avec votre plateforme pour un suivi précis de votre trésorerie. &Eacute;ditez vos états comptables (bilan, compte de résultat, etc.) construits automatiquement.  Et la TVA ? EBP Horizon s’en charge aussi, il n’y a plus qu’à la déclarer.</p><p>Enfin, tous les indicateurs clés de votre activité sont mis à jour automatiquement et en temps réel dans vos tableaux de bord.</p></div></div>",
+    "btn": "Plus de détail",
+    "captures": [{
+      "legend":"Synchronisez vos comptes bancaires très simplement",
+        "capture": "img/capture/automatisee/Automatisation.jpg"
+
+      },
+      {
+        "legend":"Visualisez l'ensemble de votre activité en un coup d'oeil",
+          "capture": "img/capture/automatisee/Automatisation-2.jpg"
+
+              }]
+}, {
+    "src": "img/captures/Capture2.JPG",
+    "title": "INTELLIGENTE",
+    "content": "<div class=\"wrap\"><div class=\"content\"><p>EBP Horizon vous accompagne dans le développement de votre chiffre d’affaires en vous alertant sur les devis en cours et les clients à relancer. Saisissez ainsi toutes les opportunités !</p><p> Une question sur votre plateforme ?  Hector, l’assistant virtuel d’EBP Horizon, vous répond 24h/24, 7j/7. Il vous aide aussi dans vos tâches quotidiennes : création d’un devis, d’une fiche client ou d’un fournisseur, il fera ce que vous lui demandez.</p></div></div>",
+    "btn": "Plus de détail",
+
+    "captures": [{
+                "legend":"En un coup d’œil, visualisez les actions en attente de traitement",
+                "capture": "img/capture/intelligente/Intelligente-1.jpg"},
+                {
+              "legend":"Hector, votre assistant virtuel, vous aide dans vos tâches quotidiennes de gestion",
+                "capture": "img/capture/intelligente/Intelligente-2.jpg"
+            }]
+
+
+}, {
+    "src": "img/captures/Capture3.JPG",
+    "title": "COLLABORATIVE",
+    "content": "<div class=\"wrap\"><div class=\"content\"><p>Vous avez un Expert-Comptable ? Facilitez votre collaboration en travaillant sur une seule et même plateforme, grâce à l’accès dédié prévu par EBP Horizon. Concentrez-vous sur l’essentiel, votre Expert-Comptable est à vos côtés et vous conseille dans le pilotage de votre activité.</p><p>Vous souhaitez travailler à plusieurs sur EBP Horizon ? Gérez vos utilisateurs directement depuis la plateforme.</p></div></div>",
+    "btn": "Plus de détail",
+    "captures": [{
+                "legend":"Désignez un expert-comptable pour la gestion de votre comptabilité",
+                "capture": "img/capture/collaborative/Collaborative1.jpg"
+            },
+            {
+                "legend":"Gérez jusqu’à 5 utilisateurs avec l’abonnement Open, et assignez leur un rôle spécifique",
+                "capture": "img/capture/collaborative/Collaborative2.jpg"
+            }]
+}]

@@ -1,0 +1,61 @@
+# protect the htaccess file
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+# protection de la lecture des répertoires
+Options -Indexes
+
+# Apache 2.0
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/xml 
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE font/woff2 
+AddOutputFilterByType DEFLATE application/json
+
+<files *.html>
+SetOutputFilter DEFLATE
+</files>
+
+#pour couper l'acces extérieur
+#order deny,allow
+#deny from all
+#allow from 10.0.0.0/8
+#allow from 81.252.131.1
+
+#  test https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fhorizon.ebp.com%2F
+#allow from 66.249.93.0/24
+
+
+<IfModule mod_expires.c>
+ExpiresActive off
+ExpiresByType image/jpg "access plus 10 minutes"
+ExpiresByType image/jpeg "access plus 10 minutes"
+ExpiresByType image/gif "access plus 10 minutes"
+ExpiresByType image/png "access plus 10 minutes"
+ExpiresByType text/css "access plus 10 minutes"
+ExpiresByType application/pdf "access plus 10 minutes"
+ExpiresByType text/x-javascript "access plus 10 minutes"
+ExpiresByType text/javascript "access plus 10 minutes"
+ExpiresByType application/javascript "access plus 10 minutes"
+ExpiresByType application/x-javascript "access plus 10 minutes"
+ExpiresByType application/x-shockwave-flash "access plus 10 minutes"
+ExpiresByType text/html "access plus 10 minutes"
+ExpiresByType image/x-icon "access plus 10 minutes"
+ExpiresDefault "access plus 10 minutes"
+</IfModule>
+
+
+
+
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
+
+

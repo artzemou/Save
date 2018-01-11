@@ -1,0 +1,33 @@
+{
+  "homepage": "https://artzemou.github.io/React_horizon",
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "gh-pages": "^1.1.0",
+    "jquery": "^3.2.1",
+    "nodemailer": "^4.4.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-ga": "^2.3.5",
+    "react-google-invisible-recaptcha": "^0.2.1",
+    "react-helmet": "^5.2.0",
+    "react-id-swiper": "^1.5.0-beta",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "react-swipe-component": "^1.3.5",
+    "react-swiper": "^0.1.5",
+    "react-waypoint": "^7.3.1",
+    "swiper": "^4.0.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {}
+}
