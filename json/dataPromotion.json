@@ -1,0 +1,27 @@
+[
+
+    
+    {
+        "background": "img/banieres/home/ciel.jpg",
+        "img": "",
+        "faux":"",
+        "title": "AVEC EBP HORIZON,<br> <b>AUTOMATISEZ VOTRE GESTION !</b> <br><span>Devis – Factures – Compta - Pilotage</span>",
+        "ideeRecue":"",
+        "text": "",
+        "special_offer": "<h4><a href=\"abonnement\">3 mois offerts<sup>(1)</sup></a></h4><div><span>puis &Agrave; partir de  </span><b><span>9,50 €  HT / Mois</span></b><span>Sans engagement</span></div>"
+
+
+  },
+    {
+      "background": "img/banieres/home/slide2_hom.jpg",
+      "img": "",
+      "faux":"",
+      "title": "La <b>collaboration</b> avec <br>votre <b>expert-comptable</b> n’a jamais été aussi simple !</span>",
+      "ideeRecue":"",
+      "text": "",
+      "special_offer": "<h4><a href=\"abonnement\">3 mois offerts<sup>(1)</sup></a></h4><div><span>puis &Agrave; partir de  </span><b><span>9,50 €  HT / Mois</span></b><span>Sans engagement</span></div>"
+
+  }
+    
+
+]

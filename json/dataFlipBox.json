@@ -1,0 +1,20 @@
+{
+    "flipbox": [
+        {
+            "title": "Automatisez",
+            "content": "Le temps de la boite à chaussure est révolu ! Avec Horizon, la collecte des données bancaires et de facturation est automatisée.",
+            "icon": "fa fa-cloud"
+
+        },
+        {
+            "title": "Collaborez",
+            "content": "Les échanges avec vos clients sont optimisés ! Vous vous recentrez sur des missions de conseils à plus forte valeur ajoutée.",
+            "icon": "fa fa-clock-o"
+        },
+        {
+            "title": "Sécurisez",
+            "content": "La plateforme de gestion Horizon est conforme aux recommandations du CSOEC. Un gage de qualité pour vous et vos clients.",
+            "icon": "fa fa-shield"
+        }
+    ]
+}

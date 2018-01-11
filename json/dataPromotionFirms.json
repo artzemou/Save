@@ -1,0 +1,23 @@
+[
+
+    {
+        "background": "img/banieres/firms/firm_1.jpg",
+        "img": "",
+        "faux":"",
+        "title": "<b>Gérez votre entreprise</b> intuitivement et gardez <br>un œil sur l'avenir",
+        "ideeRecue":"",
+        "text": "",
+        "special_offer": "<h4><a href=\"abonnement\">3 mois offerts<sup>(1)</sup></a></h4><div><span>puis &Agrave; partir de  </span><b><span>9,50 €  HT / Mois</span></b><span>Sans engagement</span></div>"
+
+  },
+    {
+        "background": "img/banieres/firms/firm_2.jpg",
+        "faux":"",
+        "title": "<b>Connectez vos comptes bancaires</b>, pour une parfaite synchronisation de vos opérations ! ",
+        "ideeRecue":"",
+        "text": "",
+        "special_offer": "<h4><a href=\"abonnement\">3 mois offerts<sup>(1)</sup></a></h4><div><span>puis &Agrave; partir de  </span><b><span>9,50 €  HT / Mois</span></b><span>Sans engagement</span></div>"
+
+  }
+
+]

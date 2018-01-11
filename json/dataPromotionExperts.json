@@ -1,0 +1,24 @@
+[
+
+    {
+        "background": "img/banieres/experts/experts_1.jpg",
+        "img": "",
+        "faux":"",
+        "title": "<b>Optimisez</b> le coworking<br> et <b>concentrez-vous</b> sur<br>l’accompagnement de vos clients ",
+        "ideeRecue":"",
+        "text": "",
+        "special_offer": "<h4><a href=\"abonnement\">Essai 3 mois<sup>(1)</sup></a></h4><div><span>A partir de  </span><b><span>9,50 €  HT / Mois</span></b><span>Sans engagement</span></div>"
+
+  },
+    {
+        "background": "img/banieres/experts/experts_2.jpg",
+        "img": "",
+        "faux":"",
+        "title": "<b>Rentabilisez</b> vos missions<br>traditionnelles et <b>développez</b><br>vos missions de conseil",
+        "ideeRecue":"",
+        "text": "",
+        "special_offer": "<h4><a href=\"abonnement\">Essai 3 mois<sup>(1)</sup></a></h4><div><span>A partir de  </span><b><span>9,50 €  HT / Mois</span></b><span>Sans engagement</span></div>"
+
+  }
+
+]

@@ -1,0 +1,59 @@
+{
+    "head": [
+        {
+            "content": ""
+        },
+        {
+            "content": "<ul><li></li><li><b><span>First</span></b></li><li><span>9,50€ / mois</span></li></ul>"
+        },
+        {
+            "content": "<ul><li></li><li><b><span>First+</span></b></li><li><span>19,50€ / mois</span></li></ul>"
+        },
+        {
+            "content": "<ul><li></li><li><b><span>Open</span></b></li><li><span>29,50€ / mois</span></li></ul>"
+        }
+
+    ],
+    "body": [
+        {
+            "option": "Je teste gratuitement la plateforme pendant 30 jours, c'est sans engagement",
+            "first": "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>",
+            "firstPlus": "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>",
+            "open" : "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>",
+            "tooltip": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes)."
+        },
+        {
+            "option": "Je gère mes clients, mes devis et mes factures et je saisis manuellement mes factures fournisseurs",
+            "first": "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>",
+            "firstPlus": "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>",
+            "open" : "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>",
+            "tooltip": "'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes)."
+        },
+        {
+            "option": "Je synchronise mes comptes bancaires pour suivre ma trésorerie",
+            "first": "1",
+            "firstPlus": "2",
+            "open" : "3",
+            "tooltip": " Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes)."
+        }
+
+
+
+    ],
+
+    "foot": [
+        {
+            "content": "Vous pourrez souscrire à votre abonnement pendant ou après votre essai, directement depuis la plateforme EBP Horizon. "
+        },
+        {
+            "content": "<span><a href=\"https://horizonapps.ebp.com/Try/?code=10241001FAA\" onClick=\"ga('send', 'event', {eventCategory: 'Essai gratuit First page accueil', eventAction: 'click', eventLabel: event.target.href});\" target=\"_blank\">Essai gratuit First</a></span><a class=\"btn-blanc\" href=\"/en-savoir-plus\">Voir le détail</a>"
+        },
+        {
+            "content": "<span><a href=\"https://horizonapps.ebp.com/Try/?code=10242001FAC\" onClick=\"ga('send', 'event', {eventCategory: 'Essai gratuit First+ page accueil', eventAction: 'click', eventLabel: event.target.href});\" target=\"_blank\">Essai gratuit First+</a></span><a class=\"btn-blanc\" href=\"/en-savoir-plus\">Voir le détail</a>"
+        },
+        {
+            "content": "<span><a href=\"https://horizonapps.ebp.com/Try/?code=10243001FAA\" onClick=\"ga('send', 'event', {eventCategory: 'Essai gratuit Open page accueil', eventAction: 'click', eventLabel: event.target.href});\" target=\"_blank\">Essai gratuit Open </a></span><a class=\"btn-blanc\" href=\"/en-savoir-plus\">Voir le détail</a>"
+        }
+
+    ]
+}

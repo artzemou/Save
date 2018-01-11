@@ -1,0 +1,153 @@
+
+  {
+    "FAQ": [
+        {
+            "key": 0,
+            "ask": "En prenant un abonnement EBP Horizon, suis-je engagé ?",
+            "content":[
+              {"li":"Abonnement ne rime pas forcément avec engagement ! Avec EBP Horizon, vous payez tous les mois votre abonnement, que vous pouvez arrêter quand vous le souhaitez. C’est sans engagement."}
+            ]
+        },
+        {
+            "key": 1,
+            "ask": "Quelles configurations minimales sont requises ? ",
+            "content":[
+
+              {
+                "li":"Vous pouvez utiliser EBP Horizon depuis n’importe quel ordinateur, en respectant les configurations ci-dessous : "
+              },
+              {
+                "li":"- Accès Internet haut débit"
+              },
+              {
+                "li":"- Écran : résolution 1280 x 720 (conseillé : 1920 x 1080)"
+              },
+              {
+                "li":"<b>Navigateurs Web compatibles – Windows :<b>"
+              },
+              {
+                "li":"- Google Chrome - fortement recommandé (nous ne supportons pas plus de 2 versions d’écart par-rapport à la version la plus récente )"
+              },
+			  {
+                "li":"- Firefox (nous ne supportons pas plus de 2 versions d’écart par-rapport à la version la plus récente )"
+              },
+              {
+                "li":"- Internet Explorer 11 ou supérieur"
+              },
+              
+              {
+                "li":"<b>Navigateurs Web compatibles – Mac :<b>"
+              },
+              {
+                "li":"- Google Chrome - fortement recommandé (nous ne supportons pas plus de 2 versions d’écart par-rapport à la version la plus récente )"
+              },
+              {
+                "li":"- Firefox (nous ne supportons pas plus de 2 versions d’écart par-rapport à la version la plus récente )"
+              }
+
+
+            ]
+        },
+        {
+            "key": 2,
+            "ask": "Peut-on utiliser EBP Horizon sur tablette ?",
+            "content":[
+              {
+                "li":"Oui, vous pouvez vous connecter à votre plateforme de gestion depuis n’importe quelle tablette disposant d’une connexion wifi, 3G ou 4G, en utilisant l’URL <a href='https://horizonapps.ebp.com'>https://horizonapps.ebp.com</a>."
+              }
+            ]
+        },
+        {
+            "key": 3,
+            "ask": "Comment sont sécurisées les données et où sont-elles hébergées ?",
+            "content":[
+              {
+                "li":"Vos données sont précieuses et confidentielles et nous le savons. C’est pourquoi, elles sont stockées sur des serveurs protégés en Europe. L’accès est sécurisé par un protocole HTTPS. Vous restez propriétaire de vos données, EBP s’engage à en préserver l’intégrité et la confidentialité."
+              }
+            ]
+        },
+        {
+            "key": 8,
+            "ask": "Que deviennent mes données lorsque je passe d’une version d’essai à un abonnement ?",
+            "content":[
+              {
+                "li":"Lorsque votre période d’essai de 30 jours arrive à expiration et que achetez un abonnement EBP Horizon, votre dossier reste identique, avec l’intégralité des données que vous y aurez saisies. Si toutefois vous ne preniez pas d’abonnement, vos données sont conservées durant 30 jours après la fin de votre période d’essai."
+              }
+            ]
+        },
+        {
+            "key": 9,
+            "ask": "Comment activer l’application EBP Horizon ?",
+            "content":[
+              {
+                "li":"Il n’est pas nécessaire d’activer la plateforme de gestion EBP Horizon. En souscrivant à l’abonnement, et en renseignant vos identifiants de compte, vous accédez directement à l’application."
+              }
+            ]
+        },
+        {
+            "key": 4,
+            "ask": "Est-il possible de changer d’abonnement ?",
+
+            "content":[
+              {
+                "li":"Il est possible de changer d’abonnement, en suivant les règles suivantes :"
+              },
+              {
+                "li":"- Si vous avez acquis EBP Horizon First, vous pourrez évoluer vers EBP Horizon First + ou EBP Horizon Open."
+              },
+              {
+                "li":"- Si vous avez acquis EBP Horizon First +, vous pourrez évoluer vers EBP Horizon Open."
+              },
+              {
+
+                "li":"- Vous ne pourrez pas changer d’abonnement pour un niveau inférieur à celui que vous utilisez déjà."
+              }
+            ]
+        },
+        {
+            "key": 5,
+            "ask": "Comment donner accès à des utilisateurs supplémentaires ?",
+
+            "content":[
+              {
+                "li":"La gestion des utilisateurs supplémentaires se fait directement depuis la plateforme EBP Horizon, dans le menu &laquo; Paramètres &raquo;, puis &laquo; Mes utilisateurs &raquo;.<br>Si vous avez acquis EBP Horizon First ou First +, vous ne pouvez pas ajouter d’utilisateur supplémentaire.<br>Si vous avez acquis EBP Horizon Open, vous pouvez gérer 5 utilisateurs au total."
+              }
+            ]
+        },
+        {
+            "key": 6,
+            "ask": "Comment donner accès à mon expert ?",
+            "content":[
+              {
+                "li":"La gestion de l’utilisateur Expert se fait directement depuis la plateforme EBP Horizon dans le menu « Paramètres », puis « Mes utilisateurs ». Vous ne pouvez donner accès qu’à un seul Expert-Comptable. "
+              }
+            ]
+        },
+        {
+            "key": 7,
+            "ask": "Comment obtenir de l’assistance ?",
+            "content":[
+              {
+                "li":"<b>Dans le produit </b>"
+              },
+              {
+                "li":"Depuis le bouton « demandez de l'aide » à droite sur votre plateforme, posez vos questions à Hector, votre assistant virtuel, 24h/24, 7j/7. Dites lui ce que vous souhaitez faire, et il travaillera pour vous. Il pourra ainsi créer une fiche client."
+              },
+              {
+
+                "li":"<b>Par téléphone</b>."
+              },
+              {
+
+                "li":"Pour toute question sur votre solution de gestion EBP Horizon, vous pouvez également contacter notre service d’Assistance téléphonique<sup>(1)</sup>."
+              },
+              {
+
+                "li":"<img alt='' src='img/tel.jpg' />"
+              }
+            ]
+        }
+
+
+    ]
+  }

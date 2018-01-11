@@ -1,0 +1,68 @@
+{
+
+
+    "description": [
+        {
+            "p":"En créant son compte, votre client vous donne accès gratuitement à la plateforme EBP Horizon."
+        },
+        {
+            "p":"Pour plus de simplicité, vos identifiants de connexion sont les mêmes pour tous vos clients évoluant sur EBP Horizon ! "
+        },
+        {
+            "p":"<h3>Découvrez les fonctionnalités EBP Horizon :</h3>"
+        },
+        {
+            "p":"En fonction de l’abonnement souscrit par votre client, vous disposez gratuitement des mêmes fonctionnalités de gestion que lui."
+        },
+        {
+            "p":" <a href='/en-savoir-plus'>Accédez au tableau comparatif</a>"
+        },
+        {
+            "p":"Et en plus, vous accédez à l’ensemble des fonctionnalités de comptabilité avancée suivantes :"
+        }
+    ],
+
+    "list": [
+        {
+            "key": 0,
+            "li": "Gestion des paramètres comptables"
+        },
+        {
+            "key": 1,
+            "li": "Saisie des écritures (par journal, contrepassation, réimputation, recherche multicritères, génération d’à nouveaux, …)"
+        },
+        {
+            "key": 2,
+            "li": "Consultation et lettrage (lettrage manuel, automatique, intelligent, rapproché)"
+        },
+        {
+            "key": 3,
+            "li": "Import et export des écritures (formats : Cegid, Cador, Dorac, Coala, EBP, Isagri, Quadratus, (…)"
+        },
+        {
+            "key": 4,
+            "li": "Consultation des plans comptables entreprise et auxiliaire"
+
+        },
+        {
+            "key": 5,
+            "li": "Export FEC"
+
+        },
+        {
+            "key": 6,
+            "li": "Gestion des exercices : possibilité de changer les dates du 1er exercice, contrôle en clôture, génération des états définitifs"
+
+        },
+        {
+            "key": 7,
+            "li": "Etats comptables interactifs (Bilan, compte de résultats, comparatif N/N-1)"
+
+        },
+        {
+            "key": 7,
+            "li": "Etc..."
+
+        }
+    ]
+}

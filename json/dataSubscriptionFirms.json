@@ -1,0 +1,104 @@
+{
+    "head": [
+        {
+            "content": ""
+        },
+        {
+            "content": "<ul><li></li><li><span>First</span></li><li><span>9,50€ / mois</span></li></ul>"
+        },
+        {
+            "content": "<ul><li></li><li><span>First+</span></li><li><span>19,50€ / mois</span></li></ul>"
+        },
+        {
+            "content": "<ul><li></li><li><span>Open</span></li><li><span>29,50€ / mois</span></li></ul>"
+        }
+
+    ],
+    "body": [
+      [
+          "Testez gratuitement la plateforme pendant 30 jours, c'est sans engagement", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+      ],
+        [
+            "Accédez à EBP Horizon en mobilité depuis n’importe quel ordinateur ou tablette", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Donnez accès gratuitement à votre expert-comptable ", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Organisez et gérez vos catalogues produits et services", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Créez et envoyez des devis et factures à l’image de votre entreprise", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Gérez vos clients,  devis en cours, factures en attente et relancez-les au bon moment", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+		    [
+            "Saisissez manuellement vos factures fournisseurs", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Suivez les indicateurs clés de votre activité et visualisez rapidement les tâches à accomplir  ", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Suivez votre trésorerie en synchronisant vos comptes bancaires ", "1", "3", "6"
+        ],
+        [
+            "Gérez simplement votre TVA, du calcul automatique à la déclaration en un clic ", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Vérifiez la conformité de votre FEC grâce à un diagnostic complet généré par l'outil FEC-Expert", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Obtenez de l’aide à tout moment grâce à Hector, votre assistant virtuel 7j/7 – 24h/24", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Gérez votre éco-contribution", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Gérez vos marges", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+
+        [
+            "Gérez vos conditions de règlement et multi-échéances", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Contactez l'Assistance téléphonique EBP<sup>(2)</sup>", "", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Importez automatiquement vos factures fournisseurs ", "", "", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Importez vos factures d'achat dématérialisées ", "", "", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Gérez vos catégories tarifaires et vos prix spécifiques ", "", "", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "&Eacuteditez vos états comptables créés automatiquement : bilan, compte de résultats, balances, grand livre, journaux", "<i></i>", "<i></i>", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Accédez à un backoffice complet de comptabilité", "", "", "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+        ],
+        [
+            "Gérez plusieurs utilisateurs", "", "", "5"
+        ]
+
+
+    ],
+
+    "foot": [
+        {
+            "content": "Vous pourrez souscrire à votre abonnement pendant ou après votre essai, directement depuis la plateforme EBP Horizon. "
+        },
+        {
+            "content": "<span><a href=\"https://horizonapps.ebp.com/Try/?code=10241001FAA\" onClick=\"ga('send', 'event', {eventCategory: 'Essai gratuit First page entreprises', eventAction: 'click', eventLabel: event.target.href});\" target=\"_blank\">Essai gratuit First</a></span>"
+        },
+        {
+            "content": "<span><a href=\"https://horizonapps.ebp.com/Try/?code=10242001FAC\" onClick=\"ga('send', 'event', {eventCategory: 'Essai gratuit First+ page entreprises', eventAction: 'click', eventLabel: event.target.href});\" target=\"_blank\">Essai gratuit First+</a></span>"
+        },
+        {
+            "content": "<span><a href=\"https://horizonapps.ebp.com/Try/?code=10243001FAA\" onClick=\"ga('send', 'event', {eventCategory: 'Essai gratuit Open page entreprises', eventAction: 'click', eventLabel: event.target.href});\" target=\"_blank\">Essai gratuit Open </a></span>"
+        }
+
+    ]
+}

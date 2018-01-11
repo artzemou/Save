@@ -1,0 +1,177 @@
+{
+
+    "renvoi":[
+      {
+        "content": "<sup>(1)</sup> Offre de lancement valable jusqu’au (attente date). Vous bénéficiez d’un mois d’essai. Par la suite, pour toute souscription à un abonnement avec paiement par prélèvement automatique, vous bénéficiez de deux mois offerts, sans engagement, et d’un mois offert pour toute souscription avec paiement par carte bancaire, toujours sans engagement."
+      },
+      {
+        "content":"<sup>(2)</sup> Service disponible à partir de l'abonnement First + et accessible du lundi au vendredi de 9h à 18h30 (18h) le vendredi. Horaire modulables selon l'activité "
+      }
+      ,
+      {
+        "content":"<sup>(3)</sup> Trésorerie prévisionnelle sur les encaissements. La fonction de trésorerie prévisionnelle sur les décaissements sera bientôt disponible."
+      }
+    ],
+    "entreprise": [
+        {
+            "content": "Plan du site",
+            "href": "#"
+        },
+        {
+            "content": "Entreprises",
+            "href": "/entreprises"
+        },
+        {
+            "content": "Expert-Comptable",
+            "href": "/experts"
+        },
+        {
+            "content": "Aide & Support",
+            "href": "/FAQ"
+        },
+        {
+            "content": "Contactez-nous",
+            "href": "/Contact"
+        },
+        {
+            "content": "Se connecter",
+            "href": "https://login.ebp.com/Step08.aspx?guid=1f91b6c0e6c64cf3a664d6acfa6a5bd5"
+        }
+
+
+    ],
+    "offres": [
+        {
+            "content": "Abonnements",
+            "href": "#"
+        },
+        {
+            "content": "EBP Horizon First",
+            "href": "/en-savoir-plus"
+        },
+        {
+            "content": "EBP Horizon First +",
+            "href": "/en-savoir-plus"
+        },
+        {
+            "content": "EBP Horizon Open",
+            "href": "/en-savoir-plus"
+        }
+
+
+    ],
+    "a_propos": [
+        {
+            "content": "A propos d'EBP",
+            "href": "#"
+        },
+        {
+            "content": "Qui sommes-nous ?",
+            "href": "/a-propos"
+        },
+        {
+            "content": "Suivez notre blog",
+            "href": "http://www.compta-entrepreneurs.com"
+        },
+        {
+            "content": "Une Question ?<br>Contactez-nous : 01 34 94 85 85",
+            "href": "/contact"
+        },
+        {
+          "content":"www.ebp.com",
+          "href": "https://www.ebp.com/"
+        }
+
+
+
+
+    ],
+        "social_network": [
+        {
+            "content": "<i class='fa fa-comments' aria-hidden='true'>",
+            "href": "http://www.compta-entrepreneurs.com/"
+        },
+        {
+            "content": "<i class='fa fa-google-plus'></i>",
+            "href": "https://plus.google.com/106761603161696485730"
+        },
+        {
+            "content": "<img src='img/daylymotion.png' alt=''>",
+            "href": "http://www.dailymotion.com/EBP_Informatique"
+        },
+        {
+            "content": "<i class='fa fa-youtube'></i>",
+            "href": "https://www.youtube.com/user/EBPinformatique"
+        },
+        {
+            "content": "<i class='fa fa-viadeo'></i>",
+            "href": "http://fr.viadeo.com/fr/company/ebp"
+        },
+        {
+            "content": "<i class='fa fa-linkedin'></i>",
+            "href": "https://fr.linkedin.com/company/ebp-informatique"
+        },
+        {
+            "content": "<i class='fa fa-twitter'></i>",
+            "href": "https://twitter.com/ebp_france?lang=fr"
+        },
+        {
+            "content": "<i class='fa fa-facebook'></i>",
+            "href": "https://www.facebook.com/ebpinformatique/"
+        }
+
+
+    ],
+        "reassurance": [
+        {
+            "content": "Sans engagement",
+            "icon": "<i class=\"butterfly\"></i>"
+        },
+            {
+            "content": "Données sécurisées",
+            "icon": "<i class=\"fa fa-lock\" aria-hidden=\"true\"></i>"
+        },
+            {
+            "content": "Toujours à jour",
+            "icon": "<i class=\"fa fa-download\" aria-hidden=\"true\"></i>"
+        },
+            {
+            "content": "Mobilité",
+            "icon": "<i class=\"fa fa-cloud\" aria-hidden=\"true\"></i>"
+        }
+
+
+    ],
+        "copyright": [
+          {
+            "content": "<a href=\"https://www.ebp.com/\" target=\"_blank\"> <img src='img/logo_ebp.jpg' alt=''></a>"
+          },
+
+        {
+            "content": "Copyright © 2017 Tous droits réservés."
+
+        },
+            {
+            "content": ""
+
+        },
+            {
+            "content": "Conditions générales de vente",
+            "href":"CGV/CGV_SaaS.pdf"
+
+        },
+            {
+            "content": "Politique de confidentialité",
+             "href":"pdf/PolitiqueDeConfidentialiteEBPHorizon.pdf"
+
+
+        },
+            {
+            "content": "Mentions légales",
+             "href":"/mentions-legales"
+
+        }
+
+
+    ]
+}
