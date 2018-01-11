@@ -5559,6 +5559,11 @@ input[type=checkbox]{
 .grid.Abonnements>*:hover{
   animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
 }
+
+.grid.Abonnements>*:hover span{
+  transition: all linear 100ms;
+  transform: scale(.8);
+}
 .grid.Abonnements .EnSavoirPlus{
   font-size: 1rem;
   margin-top: 3rem;

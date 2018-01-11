@@ -68,7 +68,7 @@ const innerLinks = [{
 },{
 
   "innerText": "Jeu concours",
-  "path": "Questionnaire",
+  "path": "jeuConcours",
   "component": Questionnaire
 },{
   "innerText": "Aide & support",
